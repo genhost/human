@@ -1,3 +1,5 @@
+Различия master и boots_buttons:
+$ git diff master boots_buttons
 diff --git a/README b/README
 index 6988c8d..975e13a 100644
 --- a/README
@@ -7,3 +9,26 @@ index 6988c8d..975e13a 100644
 +Create release branch with human (master) in boots (boots branch) and hat (hat branch).
  
  You must receive some image as in demo branch
+
+Список коммитов из ветки boots_buttons:
+Merge branch 'buttons' into demo
+Merge branch 'boots' into boots_buttons
+fix readme
+dots
+README added
+boots
+init
+
+Список коммитов из ветки master:
+Add hometask.txt
+Merge branch 'boots_buttons'
+Merge remote-tracking branch 'origin/hat'
+Merge branch 'buttons' into boots_buttons
+Merge branch 'boots' into boots_buttons
+fix readme
+dots
+README added
+boots
+heat added
+init
+
